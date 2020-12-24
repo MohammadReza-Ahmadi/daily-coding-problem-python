@@ -1,9 +1,3 @@
-# print("hello")
-
-# for x in range(4, 7):
-#     print(x)
-
-
 class PythagoreanTripletInAnArray:
     def find_triplet(self, array):
         for x in range(array.__len__()):
@@ -22,8 +16,3 @@ class PythagoreanTripletInAnArray:
                 else:
                     r -= 1
         return False
-
-
-# c = PythagoreanTripletInAnArray()
-# array = [3, 1, 4, 6, 5]
-# print(c.findTriplet(array))

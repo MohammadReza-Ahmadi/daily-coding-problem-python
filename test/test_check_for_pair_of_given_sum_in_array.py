@@ -1,9 +1,9 @@
-from unittest import TestCase
+import unittest
 
 from src.arrays.check_for_pair_of_given_sum_in_array import CheckForPairByGivenSumInAnArray
 
 
-class Test(TestCase):
+class TestCheckForPairByGivenSumInAnArray(unittest.TestCase):
     def test_4_false_m1(self):
         c = CheckForPairByGivenSumInAnArray()
         arr = [1, 4, 45, 6, 10, -8]
@@ -23,3 +23,7 @@ class Test(TestCase):
         c = CheckForPairByGivenSumInAnArray()
         arr = [1, 4, 45, 6, 10, -8]
         self.assertTrue(c.has_pair_m2(arr, 16))
+
+
+if __name__ == "__main__":
+    unittest.main()

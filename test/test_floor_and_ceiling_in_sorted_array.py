@@ -33,7 +33,7 @@ class TestFloorAndCeilingInSortedArray(unittest.TestCase):
         actual = get_floor_and_ceiling_of_array_m2_binary_search(array, x)
         self.assertListEqual(actual, expected)
 
-    def test_7_2(self):
+    def test_7_5(self):
         array = [1, 2, 8, 10, 10, 12, 19]
         x = 5
         expected = [2, 8]

@@ -1,7 +1,7 @@
 def get_longest_subsequence(array: []) -> []:
     s = len(array)
     lis = [1] * s
-    for i in range(s):
+    for i in range(0, s):
         for j in range(i + 1, s):
             if array[j] > array[i] and lis[i] + 1 > lis[j]:
                 lis[j] = lis[i] + 1
